@@ -12,7 +12,7 @@ class ButtonPanel extends React.Component {
 
   render() {
     return (
-      <div class ='panel'>
+      <div className="panel">
         <div className="first-row">
           <Button btnName="Ac" />
           <Button btnName="+/-" />
