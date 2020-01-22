@@ -3,12 +3,7 @@ import Button from './Button';
 
 
 class ButtonPanel extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      btnName: '',
-    };
-  }
+  state = { btnName: '' };
 
   render() {
     return (
