@@ -1,11 +1,16 @@
 import React from 'react';
 
-function Display() {
+const Display = (data) => {
+  const { result } = data;
   return (
-    <div>
-      <p>Result</p>
+    <div className="result">
+      <p>{result}</p>
     </div>
   );
-}
+};
+
+Display.defaultProps = {
+  result: '0',
+};
 
 export default Display;
