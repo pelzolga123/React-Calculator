@@ -1,9 +1,15 @@
 .result{
     display: flex;
-    width: 698x;
     height: 100px;
     background-color: #666666;
     border-bottom: 1px solid lightgrey;
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    flex-direction: row-reverse;
+}
+.result p {
+    margin: 20px;
 }
 .App{
     display: flex;
@@ -21,6 +27,8 @@ button {
     width: 25%;
     height: 100px;
     border: 1px solid lightgrey;
+    color: #000;
+    font-size: 20px;
 }
 .fifth-row:last-child button:first-child {
     width: 50%!important;
