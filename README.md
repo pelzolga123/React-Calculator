@@ -3,6 +3,9 @@
 ## About The Project
 Calculator is simple app, that emulates calculator and has same functionality. 
 
+## Live version
+[Calculator](https://ancient-plains-28217.herokuapp.com/)
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -18,7 +21,7 @@ You will also see any lint errors in the console.
 
 ### Contributor
 
-* **[Olga Pelts](https://github.com/pelzolga123)**
+**[Olga Pelts](https://github.com/pelzolga123)**
 
 
 ### Built With
