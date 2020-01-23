@@ -2,7 +2,7 @@ import React from 'react';
 import Button from './Button';
 
 
-export const ButtonPanel = () => (
+const ButtonPanel = () => (
   <div className="panel">
     <div className="first-row">
       <Button btnName="Ac" />
