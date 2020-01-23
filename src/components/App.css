@@ -1,0 +1,17 @@
+.result{
+    border: 1px solid blue;
+    padding-left: 5px;
+}
+.App{
+    width: 35%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.panel{
+    display: flex;
+    flex-direction: column;
+}
+button {
+    width: 162px;
+    padding: 10px;
+}
