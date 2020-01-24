@@ -1,19 +1,24 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Button = (props) => {
-  const { btnName } = props;
-  return (
-    <button type="button">{btnName}</button>
-  );
-};
+const Button = ({ btnName, color, wide }) => (
+  <button
+    type="button"
+    style={{ backgroundColor: color, width: wide ? '50%' : '25%' }}
+  >
+    {btnName}
+  </button>
+);
 
 Button.propTypes = {
-  btnName: PropTypes.string,
+  btnName: PropTypes.string.isRequired,
+  color: PropTypes.string,
+  wide: PropTypes.bool,
 };
 
 Button.defaultProps = {
-  btnName: '',
+  color: '#FF8C00',
+  wide: false,
 };
 
 export default Button;
