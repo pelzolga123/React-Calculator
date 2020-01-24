@@ -1,4 +1,4 @@
-import Big from 'big.js';
+import Big from 'big-js';
 
 const operate = (first, second, operation) => {
   const firstVal = Big(first);
@@ -16,7 +16,7 @@ const operate = (first, second, operation) => {
   } else if (operation === 'x') {
     res = firstVal.times(secondVal).toString();
   } else if (operation === '%') {
-    res = firstVal.mod(secondVal).toString();
+    res = firstVal.div(100).toString();
   } else res = 'Invalid operation';
   return res;
 };

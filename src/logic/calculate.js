@@ -1,18 +1,19 @@
 import operate from './operate';
 
-const calculate = ({
-  result, nextVal, operation, buttonVal,
-}) => {
-  let res = result;
+const calculate = ({ data, buttonVal }) => {
+  let { result, nextVal, operation } = data;
   if (buttonVal === 'Ac') {
-    res = 0;
+    result = null;
+    nextVal = null;
+    operation = null;
     return result;
   }
   if (buttonVal === '+/-') {
-    res *= -1;
+    result *= -1;
+    nextVal *= -1;
     return result;
   }
-  return operate(res, nextVal, operation);
+  return operate(result, nextVal, operation);
 };
 
 export default calculate;
