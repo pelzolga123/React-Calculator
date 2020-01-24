@@ -4,7 +4,6 @@ import Display from './Display';
 import './App.css';
 import calculate from '../logic/calculate';
 
-calculate();
 const App = () => (
   <div className="App">
     <h1>Calculator</h1>

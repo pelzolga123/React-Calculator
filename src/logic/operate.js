@@ -5,22 +5,19 @@ const operate = (first, second, operation) => {
   const secondVal = Big(second);
   let res = 0;
 
-  if (operation === 'Ac') {
-    res = 0;
-  } else if (operation === '+') {
+  if (operation === '+') {
     res = firstVal.plus(secondVal).toString();
   } else if (operation === '-') {
     res = firstVal.minus(secondVal).toString();
   } else if (operation === '÷' && secondVal.toString() !== '0') {
     res = firstVal.div(secondVal).toString();
   } else if (operation === '÷' && secondVal.toString() === '0') {
-    res = "Can't divide y zero";
+    res = "Can't divide by zero";
   } else if (operation === 'x') {
     res = firstVal.times(secondVal).toString();
   } else if (operation === '%') {
     res = firstVal.mod(secondVal).toString();
   } else res = 'Invalid operation';
-
   return res;
 };
 
