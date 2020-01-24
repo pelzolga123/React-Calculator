@@ -2,7 +2,9 @@ import React from 'react';
 import ButtonPanel from './ButtonPanel';
 import Display from './Display';
 import './App.css';
+import calculate from '../logic/calculate';
 
+calculate();
 const App = () => (
   <div className="App">
     <h1>Calculator</h1>
