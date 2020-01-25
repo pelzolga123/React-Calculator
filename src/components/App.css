@@ -30,6 +30,4 @@ button {
     color: #000;
     font-size: 20px;
 }
-.fifth-row:last-child button:first-child {
-    width: 50%!important;
-}
+
