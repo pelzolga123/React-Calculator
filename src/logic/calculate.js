@@ -1,6 +1,6 @@
 import operate from './operate';
 
-const calculate = ({ data, buttonVal }) => {
+const calculate = (data, buttonVal) => {
   let { result, nextVal, operation } = data;
   if (buttonVal === 'Ac') {
     result = null;
