@@ -1,8 +1,8 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Button from './Button';
 
-
-const ButtonPanel = () => {
+const ButtonPanel = ({ clickButton }) => {
   const arr = [{
     mark: 'Ac',
     color: 'rgb(221, 221, 221)',
@@ -99,7 +99,15 @@ const ButtonPanel = () => {
     w: false,
   },
   ];
-  const btn = arr.map((i) => <Button key={i.mark} btnName={i.mark} color={i.color} wide={i.w} />);
+  const btn = arr.map((i) => (
+    <Button
+      key={i.mark}
+      mark={i.mark}
+      color={i.color}
+      wide={i.w}
+      buttonClick={clickButton}
+    />
+  ));
 
   return (
     <div className="panel">
@@ -108,6 +116,10 @@ const ButtonPanel = () => {
       </div>
     </div>
   );
+};
+
+ButtonPanel.propTypes = {
+  clickButton: PropTypes.func.isRequired,
 };
 
 export default ButtonPanel;

@@ -1,4 +1,7 @@
-# Calculator
+
+<h1 align="center">Calculator 👋</h1>
+
+<p align="center">This is a calculator app built with React. </p><br />
 
 ## About The Project
 Calculator is simple app, that emulates calculator and has same functionality. 
@@ -6,28 +9,47 @@ Calculator is simple app, that emulates calculator and has same functionality.
 ## Live version
 [Calculator](https://ancient-plains-28217.herokuapp.com/)
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-
-### Contributor
-
-**[Olga Pelts](https://github.com/pelzolga123)**
-
-
-### Built With
+## Built With
 * JavaScript
 * React JS
 * HTML
 * CSS
 * ES6
+
+## Getting Started
+
+> Clone the repository to your local machine
+
+```sh
+$ git clone https://github.com/pelzolga123/Bookstore.git
+```
+
+
+> change directory into the directory
+
+```sh
+$ cd Bookstore
+```
+
+> Install dependencies
+
+```sh
+$ npm install
+```
+
+> Start - build and run
+
+```sh
+$ npm run start
+```
+
+> If it doesn't open automatically, open `http://localhost:3000` using your browser.
+
+
+### Contributor
+
+👤 **Olga pelts**
+   - Github: [@pelzolga123](https://github.com/pelzolga123)
+   - LinkedIn: [Olgapelz](https://www.linkedin.com/in/OlgaPelz/)
+
 
