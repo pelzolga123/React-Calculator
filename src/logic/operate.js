@@ -15,8 +15,6 @@ const operate = (first, second, operation) => {
     res = "Can't divide by zero";
   } else if (operation === 'x') {
     res = firstVal.times(secondVal).toString();
-  } else if (operation === '%') {
-    res = firstVal.div(100).toString();
   } else res = 'Invalid operation';
   return res;
 };

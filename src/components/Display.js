@@ -1,16 +1,13 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const Display = (data) => {
-  const { result } = data;
-  return (
-    <div className="result">
-      <p>{result}</p>
-    </div>
-  );
-};
-
-Display.defaultProps = {
-  result: '0',
+const Display = ({ result }) => (
+  <div className="result">
+    <p>{result}</p>
+  </div>
+);
+Display.propTypes = {
+  result: PropTypes.string.isRequired,
 };
 
 export default Display;
