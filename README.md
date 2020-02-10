@@ -2,6 +2,7 @@
 <h1 align="center">Calculator 👋</h1>
 
 <p align="center">This is a calculator app built with React. </p><br />
+
 ## About The Project
 Calculator is simple app, that emulates calculator and has same functionality. 
 
