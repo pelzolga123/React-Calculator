@@ -21,7 +21,7 @@ Calculator is simple app, that emulates calculator and has same functionality.
 > Clone the repository to your local machine
 
 ```sh
-$ git clone https://github.com/pelzolga123/Bookstore.git
+$ git clone https://github.com/pelzolga123/React-Calculator.git
 ```
 
 
