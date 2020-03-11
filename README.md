@@ -3,6 +3,8 @@
 
 <p align="center">This is a calculator app built with React. </p><br />
 
+<img src="https://i.ibb.co/6FrQnrm/Screenshot-from-2020-03-11-17-59-00.png" alt="Screenshot-from-2020-03-11-17-59-00" border="0">
+
 ## About The Project
 Calculator is simple app, that emulates calculator and has same functionality. 
 
@@ -46,10 +48,25 @@ $ npm run start
 > If it doesn't open automatically, open `http://localhost:3000` using your browser.
 
 
-### Contributor
+## Author
 
 👤 **Olga pelts**
    - Github: [@pelzolga123](https://github.com/pelzolga123)
-   - LinkedIn: [Olgapelz](https://www.linkedin.com/in/OlgaPelz/)
+   - LinkedIn: [Olga Pelts](https://www.linkedin.com/in/olga-pelts/)
+
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/pelzolga123/Bookstore/issues).
+
+1. Fork it (https://github.com/pelzolga123/Bookstore/fork)
+2. Create your working branch (git checkout -b [choose-a-name])
+3. Commit your changes (git commit -am 'what this commit will fix/add')
+4. Push to the branch (git push origin feature/[feature-name])
+5. Create a new Pull Request
+
+## Show your support
+
+Give a ⭐️ if you like this project!
 
 
