@@ -6,7 +6,7 @@
 <img src="https://i.ibb.co/6FrQnrm/Screenshot-from-2020-03-11-17-59-00.png" alt="Screenshot-from-2020-03-11-17-59-00" border="0">
 
 ## About The Project
-Calculator is simple app, that emulates calculator and has same functionality. 
+The calculator is a simple app, that emulates a calculator and has the same functionality. 
 
 ## Live version
 [Calculator](https://ancient-plains-28217.herokuapp.com/)
@@ -68,5 +68,3 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-
